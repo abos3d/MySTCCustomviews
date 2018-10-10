@@ -1,0 +1,13 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Custom Views</string>
+    <string name="searchView_toolbarIconTitle">Search</string>
+    <string name="searchInApp_noSearchResult">No Search Result</string>
+
+    <!-- Text displayed when the recipientedittextview is not focused. Displays the total number of recipients since the field is shrunk to just display a portion -->
+    <string name="more_string" translatable="false">\u002B<xliff:g id="count">%1$s</xliff:g></string>
+
+    <!-- Text displayed in the enter key slot when the recipientedittextview has focus.
+         [CHAR LIMIT=12] -->
+    <string name="done">Return</string>
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--chips-->
+    <declare-styleable name="RecipientEditTextView">
+        <attr name="avatarPosition">
+            <enum name="end" value="0" />
+            <enum name="start" value="1" />
+        </attr>
+        <attr name="chipBackground" format="reference" />
+        <attr name="chipBackgroundPressed" format="reference" />
+        <attr name="chipDelete" format="reference" />
+        <attr name="chipFontSize" format="reference" />
+        <attr name="chipHeight" format="reference" />
+        <attr name="chipPadding" format="reference" />
+        <attr name="disableDelete" format="boolean" />
+        <attr name="invalidChipBackground" format="reference" />
+        <attr name="imageSpanAlignment">
+            <enum name="bottom" value="0" />
+            <enum name="baseline" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Circle Chart -->
+    <attr name="CircleChartStyle" format="reference" />
+    <declare-styleable name="CircleChart">
+        <attr name="chart_color" format="color" />
+        <attr name="empty_arc_color" format="color" />
+        <attr name="filled_arc_color" format="color" />
+        <attr name="header_color" format="color" />
+        <attr name="footer_color" format="color" />
+        <attr name="value_color" format="color" />
+        <attr name="finished_color" format="color" />
+        <attr name="phoneNumber_color" format="color" />
+        <attr name="unit_color" format="color" />
+        <attr name="animation_duration" format="integer" />
+        <attr name="arc_width" format="dimension" />
+    </declare-styleable>
+
+    <!--Custom Bar-->
+    <attr name="HorizontalProgressBar" format="reference" />
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="HorizontalProgressBar_chart_color" format="color" />
+        <attr name="HorizontalProgressBar_bubble_color" format="color" />
+        <attr name="HorizontalProgressBar_textSize" format="dimension" />
+        <attr name="HorizontalProgressBar_bubbleTextSize" format="dimension" />
+        <attr name="HorizontalProgressBar_textColor" format="color" />
+        <attr name="HorizontalProgressBar_bubbleTextColor" format="color" />
+        <attr name="HorizontalProgressBar_animation_duration" format="integer" />
+        <attr name="HorizontalProgressBar_unit" format="string" />
+        <attr name="HorizontalProgressBar_value" format="float" />
+        <attr name="HorizontalProgressBar_maxValue" format="float" />
+    </declare-styleable>
+
+    <!-- Pager Indicator -->
+    <attr name="CirclePageIndicatorStyle" format="reference" />
+    <declare-styleable name="CirclePageIndicator">
+        <attr name="centered" format="boolean" />
+        <attr name="fillColor" format="color" />
+        <attr name="pageColor" format="color" />
+        <attr name="android:orientation" />
+        <attr name="radius" format="dimension" />
+        <attr name="snap" format="boolean" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <attr name="LinePageIndicatorStyle" format="reference" />
+    <declare-styleable name="LinePageIndicator">
+        <attr name="center" format="boolean" />
+        <attr name="fillsColor" format="color" />
+        <attr name="pagesColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="gapWidth" format="dimension" />
+        <attr name="unselectedColor" format="color" />
+        <attr name="selectedColor" format="color" />
+        <attr name="android:orientation" />
+        <attr name="snaps" format="boolean" />
+        <attr name="strokesColor" format="color" />
+        <attr name="strokesWidth" format="dimension" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <!-- Slider -->
+    <attr name="discreteSeekBarStyle" format="reference" />
+    <declare-styleable name="DiscreteSeekBar">
+        <attr name="dsb_min" format="integer|dimension" />
+        <attr name="dsb_max" format="integer|dimension" />
+        <attr name="dsb_value" format="integer|dimension" />
+        <attr name="dsb_mirrorForRtl" format="boolean" />
+        <attr name="dsb_allowTrackClickToDrag" format="boolean" />
+        <attr name="dsb_progressColor" format="color|reference" />
+        <attr name="dsb_trackColor" format="color|reference" />
+        <attr name="dsb_indicatorTextAppearance" format="reference" />
+        <attr name="dsb_indicatorColor" format="color|reference" />
+        <attr name="dsb_indicatorElevation" format="dimension" />
+        <attr name="dsb_indicatorFormatter" format="string|reference" />
+        <attr name="dsb_rippleColor" format="color|reference" />
+    </declare-styleable>
+
+    <attr name="WidgetChartStyle" format="reference" />
+    <declare-styleable name="WidgetCircleChart">
+        <attr name="headerTextSize" format="dimension" />
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="amountTextSize" format="dimension" />
+        <attr name="unitTextSize" format="dimension" />
+        <attr name="footerTextSize" format="dimension" />
+        <attr name="emptyArcWidth" format="dimension" />
+        <attr name="arcWidth" format="dimension" />
+    </declare-styleable>
+
+
+    <attr name="WidgetChartSmallStyle" format="reference" />
+    <declare-styleable name="widgetChartSmall">
+        <attr name="wcs_headerTextSize" format="dimension" />
+        <attr name="wcs_amountTextSize" format="dimension" />
+        <attr name="wcs_unitTextSize" format="dimension" />
+        <attr name="wcs_emptyArcWidth" format="dimension" />
+        <attr name="wcs_arcWidth" format="dimension" />
+        <attr name="wcs_circleChart_filled_arc_color" format="color" />
+        <attr name="wcs_circleChart_value_color" format="color" />
+        <attr name="wcs_circleChart_unit_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RateBar">
+        <attr name="rateDrawableWidth" format="dimension" />
+        <attr name="rateDrawableHeight" format="dimension" />
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="enabled" format="boolean" />
+        <attr name="rating" format="integer" />
+        <attr name="drawText" format="boolean" />
+        <attr name="rateDefaultTextSize" format="dimension" />
+        <attr name="rateSecondaryTextSize" format="dimension" />
+        <attr name="rateDefaultTextColor" format="color" />
+        <attr name="rateSecondaryTextColor" format="color" />
+        <attr name="rateDefaultDrawable" format="reference" />
+        <attr name="rateSecondaryDrawable" format="reference" />
+    </declare-styleable>
+
+
+    <attr name="progressDialogStyle" format="reference" />
+
+</resources>

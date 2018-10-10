@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Purple">#712c81</color>
+    <color name="Magenta">#da3f7b</color>
+    <color name="Transparent">#00FFFFFF</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="LightPurple">#9679A8</color>
+    <color name="Gold">#FCB62C</color>
+    <color name="Yellow">#FBE133</color>
+    <color name="PaleGrey">#EFEFF4</color>
+    <color name="LightestGrey">#F8F8F8</color>
+    <color name="WhiteSmoke">#D1D3D4</color>
+    <color name="DarkGrey">#5c5c5c</color>
+    <color name="LightGrey">#a3a3a3</color>
+    <color name="NewLightGray">#a8a8a8</color>
+    <color name="warmGray">#919191</color>
+    <color name="kindOfGray">#66939393</color>
+    <color name="rateDefaultTextColor">#888888</color>
+    <color name="rateSecondaryTextColor">#ffffff</color>
+    <color name="round_corner_progress_bar_background_default">#5f5f5f</color>
+    <color name="round_corner_progress_bar_progress_default">#7f7f7f</color>
+</resources>

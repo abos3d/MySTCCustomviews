@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_size">16dp</dimen>
+    <dimen name="amount_text_size">32dp</dimen>
+    <dimen name="phone_number_text_size">12dp</dimen>
+    <dimen name="label_text_size">12dp</dimen>
+    <dimen name="unit_text_size">12dp</dimen>
+    <dimen name="footer_text_size">10dp</dimen>
+    <dimen name="arc_width">4dp</dimen>
+    <dimen name="empty_arc_width">2dp</dimen>
+
+</resources>

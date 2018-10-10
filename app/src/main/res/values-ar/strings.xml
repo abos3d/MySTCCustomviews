@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="searchInApp_noSearchResult">لا نتائج للبحث</string>
+    <string name="searchView_toolbarIconTitle">بحث</string>
+    <string name="done">عودة</string>
+
+</resources>

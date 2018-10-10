@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="DefaultSeekBar" parent="android:Widget">
+        <item name="dsb_indicatorTextAppearance">@style/DefaultIndicatorTextAppearance</item>
+        <item name="dsb_progressColor">@drawable/dsb_progress_color_list</item>
+        <item name="dsb_rippleColor">@drawable/dsb_ripple_color_list</item>
+        <item name="dsb_trackColor">@drawable/dsb_track_color_list</item>
+        <item name="dsb_indicatorColor">@color/Magenta</item>
+        <item name="dsb_indicatorElevation">4dp</item>
+        <item name="dsb_mirrorForRtl">true</item>
+    </style>
+
+    <style name="DefaultIndicatorTextAppearance" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+
+    <style name="ChipTitleStyle">
+        <item name="android:paddingLeft">@dimen/chip_title_padding_start</item>
+    </style>
+
+    <style name="ChipSubtitleStyle">
+        <item name="android:paddingLeft">@dimen/chip_subtitle_padding_start</item>
+    </style>
+
+    <style name="ChipIconStyle">
+        <item name="android:layout_marginRight">@dimen/chip_icon_margin_start</item>
+    </style>
+
+    <style name="RecipientEditTextView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:dropDownVerticalOffset">-6dip</item>
+        <item name="android:dropDownHorizontalOffset">-16dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">viewStart</item>
+        <item name="android:textDirection" tools:ignore="NewApi">locale</item>
+    </style>
+
+
+</resources>

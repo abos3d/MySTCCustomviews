@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Circle Chart Default -->
+    <color name="default_chart_color">@color/LightGrey</color>
+    <color name="default_empty_arc_color">@color/Purple</color>
+    <color name="default_finished_color">@color/warmGray</color>
+    <color name="default_filled_arc_color">@color/Purple</color>
+    <color name="default_header_color">@color/Purple</color>
+    <color name="default_footer_color">@color/warmGray</color>
+    <color name="default_value_color">@color/Magenta</color>
+    <color name="default_unit_color">@color/Magenta</color>
+    <integer name="default_animation_duration">1500</integer>
+
+    <dimen name="default_arc_width">8dp</dimen>
+
+
+    <!-- Pager Indicator Defaults -->
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">3dp</dimen>
+
+    <color name="default_line_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_line_indicator_unselected_color">#00000000</color>
+    <dimen name="default_line_indicator_line_width">3dp</dimen>
+    <dimen name="default_line_indicator_gap_width">3dp</dimen>
+    <bool name="default_line_indicator_centered">true</bool>
+    <dimen name="default_line_indicator_strokes_width">3dp</dimen>
+
+
+</resources>

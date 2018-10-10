@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape
+            android:shape="oval"
+            android:tint="#5cffffff">
+            <solid android:color="?colorPrimary" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_contact_picture_chip" />
+
+</layer-list>
