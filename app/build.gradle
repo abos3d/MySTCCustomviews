@@ -1,9 +1,25 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: "guru.stefma.bintrayrelease"
 
+group = "sa.com.stc.customviews"
+version = "1.0.0"
+
+publish {
+
+    def groupProjectID = 'sa.com.stc.customviews'
+    def artifactProjectID = 'MySTCCustomviews'
+    def publishVersionID = '1.0.0'
+
+    userOrg = 'abos3d'
+    repoName = 'STC_CustomViews'
+    artifactId = artifactProjectID
+    desc = 'flexable and useful custom views'
+    website = 'https://github.com/abos3d/MySTCCustomviews'
+
+}
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "sa.com.stc.customviews"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
