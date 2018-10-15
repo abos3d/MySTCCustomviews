@@ -16,6 +16,7 @@
 
 package sa.com.stc.customviews.pickers.date;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -24,7 +25,6 @@ import android.graphics.Paint.Align;
 import android.graphics.Paint.Style;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
-import android.widget.TextView;
 
 import java.util.Locale;
 
@@ -34,7 +34,7 @@ import sa.com.stc.customviews.R;
 /**
  * A text view which, when pressed or activated, displays a blue circle around the text.
  */
-public class TextViewWithCircularIndicator extends TextView {
+public class TextViewWithCircularIndicator extends android.support.v7.widget.AppCompatTextView {
 
     private static final int SELECTED_CIRCLE_ALPHA = 255;
     private final int mRadius;
@@ -78,6 +78,7 @@ public class TextViewWithCircularIndicator extends TextView {
         super.onDraw(canvas);
     }
 
+    @SuppressLint("GetContentDescriptionOverride")
     @Override
     public CharSequence getContentDescription() {
         CharSequence itemText = getText();

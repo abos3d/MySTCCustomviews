@@ -1,5 +1,6 @@
 package sa.com.stc.customviews.pickers;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Context;
 import android.database.ContentObserver;
@@ -59,6 +60,7 @@ public class HapticFeedbackController {
      * Try to vibrate. To prevent this becoming a single continuous vibration, nothing will
      * happen if we have vibrated very recently.
      */
+    @SuppressLint("MissingPermission")
     public void tryVibrate() {
         if (mVibrator != null && mIsGloballyEnabled) {
             long now = SystemClock.uptimeMillis();

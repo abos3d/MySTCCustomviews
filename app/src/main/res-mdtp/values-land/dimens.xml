@@ -16,9 +16,8 @@
 */
 -->
 
-<resources>
-    <dimen name="mdtp_dialog_height">200dip</dimen>
-    <dimen name="mdtp_left_side_width">270dip</dimen>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="mdtp_left_side_width" tools:ignore="MissingDefaultResource">270dip</dimen>
 
     <dimen name="mdtp_selected_date_year_size">30dp</dimen>
     <dimen name="mdtp_selected_date_day_size">100dp</dimen>
